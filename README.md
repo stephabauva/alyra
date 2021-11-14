@@ -2,7 +2,7 @@
 For file: test_voting_code_cyril.js \
 Main portion of the code tests for one winner and the very end of the code tests the draw scenario between two proposals. \
 Two instances are created for solo and duo winners, respectively. \
-Created two reusable functions "changeWorkflowStatus" and "testVoter" to reduce repetitions in the code. \
+Created two reusable functions "changeWorkflowStatus" and "testVoter" to reduce repetitions in the code. 
 - changeWorkflowStatus simply tests any change of state given as parameter,
 - testVoter can evaluate any key of the Voter struct given as parameter.
 Objects (or dictionaries) stateChangeTx and stateRevertMsg are used in the reusable functions, 
