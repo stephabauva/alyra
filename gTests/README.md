@@ -1,6 +1,5 @@
 
-Filename:
-# test_voting_code_cyril.js \
+### test_voting_code_cyril.js 
 Main portion of the code tests for one winner and the very end of the code tests the draw scenario between two proposals. \
 Two instances are created for solo and duo winners, respectively. \
 Created two reusable functions "changeWorkflowStatus" and "testVoter" to reduce repetitions in the code. 
