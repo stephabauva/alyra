@@ -182,7 +182,7 @@ contract('test_code_cyril_voting', async function(accounts) {
                     let _proposalID = voterKey - 1;
                     let tx = await votingInstance.addProposal(listOfProposals[_proposalID], {from: voters[voterKey]});
                     expectEvent(tx, 'ProposalRegistered', {proposalId: new BN(_proposalID)}); 
-                            //?!! proposalId only works with BN or string but should be uint ???
+                            
                 };
             });
             it('All proposals have been added correctly', async function () {
